@@ -1,13 +1,20 @@
 ###
 
-GET http://localhost:5000/
+GET http://localhost:5001/
 
 ###
 
-GET http://localhost:5000/itemCard/
+GET http://localhost:5001/itemCard/
 
 ###
 
-POST http://localhost:5000/itemCard/
+POST http://localhost:5001/itemCard/
+Content-Type: application/json
 
+{
+    "description":"bla bla bla",
+    "fullAddress":"ashdod vkdfov",
+    "price":"3500",
+    "house_size":"110"
+}
 ###
